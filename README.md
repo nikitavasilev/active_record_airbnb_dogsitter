@@ -1,4 +1,4 @@
-# Database with Rails - Active Record - Airbnb_dogs
+# Database with Rails - Active Record - Airbnb Dogsitters
 
 This work was done as a project for [The Hacking Project Bootcamp](https://www.thehackingproject.org/).
 The goal was to learn the basics of the Database with Rails and build an SQL database of a Airbnb app but for dogs! So, in our database, we can find Dogsitters, Dogs, Stroll and cities! 
@@ -8,7 +8,7 @@ The goal was to learn the basics of the Database with Rails and build an SQL dat
 You need at least ruby 2.5.1 (maybe under but you need to modify the Gemfile) and bundler installed on your computer.
 
 1. First of all `git clone the repo`
-2. Run `$ cd active_Airbnb_dogs`
+2. Run `$ cd active_record_airbnb_dogsitter`
 3. Run `$ bundle install`
 4. Run `$ rake db:reset` which gonna clean all the cells of our database, and create brand new tables along with our `seeds.rb` file
 5. To play with the database run `$ rails console`
@@ -62,7 +62,6 @@ ActiveRecord::Schema.define(version: 2018_10_25_172029) do
     t.index ["dog_id"], name: "index_strolls_on_dog_id"
     t.index ["dogsitter_id"], name: "index_strolls_on_dogsitter_id"
   end
-
 end 
 ```
 
@@ -75,3 +74,6 @@ This project was build with the help of:
 * [Thomas Charvet](https://github.com/TomacTh)
 * [Ysaline Macé](https://github.com/Ysalien)
 
+## Contact
+
+Problems or questions? File an issue at [GitHub](https://github.com/nikitavasilev/active_record_blog/issues).
